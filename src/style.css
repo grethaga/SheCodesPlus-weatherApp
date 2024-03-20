@@ -1,3 +1,25 @@
 body {
   background-color: #f0f8ff;
 }
+
+.container {
+  background-color: white;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+input {
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.city-input {
+  background-color: #f0f8ff;
+  color: grey;
+}
+
+.submit-button {
+  background-color: #6699cc;
+  color: white;
+}

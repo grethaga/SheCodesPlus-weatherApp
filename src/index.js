@@ -50,7 +50,31 @@ function showWeather(event) {
   searchCity(cityInput.value);
 }
 
+function displayforecast() {
+  let forecast = document.querySelector("#forecast");
+
+  let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `<div class="forecast-col">
+        <div class="forecast-day">${day}</div>
+        <div class="forecast-icon">☀️</div>
+        <div class="forecast-temp">
+              <span class="temp-max">18°</span>
+              <span class="temp-min">12°</span>
+        </div>
+        </div>`;
+  });
+
+  forecast.innerHTML = forecastHtml;
+}
+
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", showWeather);
 
 searchCity("Vienna");
+
+displayforecast();

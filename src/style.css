@@ -13,7 +13,7 @@ body {
 
 header {
   border-bottom: 1px solid #f9f7fe;
-  padding-bottom: 30px;
+  padding: 10px 10px 30px 10px;
 }
 
 .city-input {
@@ -118,17 +118,20 @@ a:hover {
 
 .forecast-day {
   font-size: 18px;
-  color: #000;
+  color: #a9a6b3;
 }
 
 .forecast-icon {
-  width: 100px;
+  width: 66px;
 }
 
 .forecast-temp {
   font-size: 14px;
+  font-weight: bold;
+  color: #005f69;
 }
 
 .temp-min {
   opacity: 0.5;
+  color: #005f69;
 }

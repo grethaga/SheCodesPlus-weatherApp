@@ -144,14 +144,21 @@ a:hover {
   .city-input {
     width: 65%;
   }
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: smaller;
+  }
   .temp-value {
-    font-size: 50px;
+    font-size: 56px;
   }
   .temp-icon {
     width: 60px;
     height: 60px;
   }
   .temp-unit {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
